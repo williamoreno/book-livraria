@@ -3,6 +3,14 @@ body{
     font-family:tahoma;
     color:#666;
 }
+h1,h2{
+    margin: 0;
+    color: #333;
+    font-size: 20px;
+}
+h2{
+    font-size: 18px;
+}
 .left{
     float:left;
 }
@@ -21,6 +29,7 @@ body{
     height: 40px;
     margin-bottom: 2px;
 }
+
 #menu a{
     color:#fff;
     text-decoration: none;
@@ -35,16 +44,34 @@ body{
 #logo{
     margin: 30px 0;
 }
+#banner{
+    padding-bottom: 30px;
+}
 #banner img{
     width: 100%;
 
     line-height:40px;
 
+}.texto1{
+    width: 60%;
 }
-.texto1{
-    
+.texto2{
+    width: 35%;
+}
+.texto2 p{
+   font-style:italic;
+   color:#999;
+
 }
 
-.texto2{
+#rodape{
+    clear: both;
+    width: 1000px;
+    text-align: center;
+    font-size: 12px;
+    padding: 30px 0;
+    color: #999;
+    font-family: cursive;
     
 }
+    
